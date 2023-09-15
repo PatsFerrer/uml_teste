@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T02:38:12.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="WSozEtR2uYlNJ0Ilry-R" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T04:28:55.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="RMybfIfsG9P8VSfFlvat" version="21.7.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="929" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
           <mxGeometry y="138" width="170" height="82" as="geometry" />
         </mxCell>
         <mxCell id="DyhO0hjf9G11I1QqjPt--55" value="Passagem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="412.5" y="442" width="185" height="160" as="geometry" />
+          <mxGeometry x="412.5" y="442" width="185" height="150" as="geometry" />
         </mxCell>
         <mxCell id="DyhO0hjf9G11I1QqjPt--56" value="- id: int&lt;br&gt;- preco: double&lt;br&gt;- assento: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DyhO0hjf9G11I1QqjPt--55" vertex="1">
           <mxGeometry y="26" width="185" height="54" as="geometry" />
@@ -40,7 +40,7 @@
           <mxGeometry y="80" width="185" height="38" as="geometry" />
         </mxCell>
         <mxCell id="DyhO0hjf9G11I1QqjPt--58" value="+ precoPassagem()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DyhO0hjf9G11I1QqjPt--55" vertex="1">
-          <mxGeometry y="118" width="185" height="42" as="geometry" />
+          <mxGeometry y="118" width="185" height="32" as="geometry" />
         </mxCell>
         <mxCell id="DyhO0hjf9G11I1QqjPt--59" value="+--------------------------------+&#xa;|           Passagem             |&#xa;+--------------------------------+&#xa;| idPassagem: int                |&#xa;| origem: String                 |&#xa;| destino: String                |&#xa;| precoBilhete: double           |&#xa;+--------------------------------+&#xa;| dataPartida: Date              |&#xa;| dataRetorno: Date              |&#xa;| getIdPassagem(): int           |&#xa;| getOrigem(): String            |&#xa;| getDestino(): String           |&#xa;| getPrecoBilhete(): double      |&#xa;| getDataPartida(): Date         |&#xa;| getDataRetorno(): Date         |&#xa;+--------------------------------+&#xa;&#xa;&#xa;+--------------------------------+&#xa;|           Reserva              |&#xa;+--------------------------------+&#xa;| idReserva: int                 |&#xa;| numeroPassageiros: int         |&#xa;| precoTotal: double             |&#xa;| dataReserva: Date              |&#xa;| passagem: Passagem             |&#xa;+--------------------------------+&#xa;| getIdReserva(): int            |&#xa;| getNumeroPassageiros(): int    |&#xa;| getPrecoTotal(): double        |&#xa;| getDataReserva(): Date         |&#xa;| getPassagem(): Passagem        |&#xa;+--------------------------------+" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="959" y="300" width="210" height="510" as="geometry" />
